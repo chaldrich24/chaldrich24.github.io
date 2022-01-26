@@ -1,25 +1,26 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
+    const { currentSection, setCurrentSection, sections } = props;
+
     return (
         <header>
             <h1>Chad Aldrich</h1>
             <nav>
                 <ul>
+                    {sections.map((section)=> (
+                        <li>
+                            <span className={currentSection.name === section.name && 'navActive'} onClick={() => setCurrentSection(section)}>{section.name}</span>
+                        </li>
+                    ))}
                     <li>
-                        <span>About Me</span>
-                    </li>
-                    <li>
-                        <span>Projects</span>
-                    </li>
-                    <li>
-                        <span>Contact</span>
-                    </li>
-                    <li>
-                        <span>Resume</span>
+                        <a href='https://www.linkedin.com/in/chad-aldrich/'>
+                            <i className="fa fa-linkedin fa-2x fa_custom" ></i>
+                        </a>
                     </li>
                 </ul>
             </nav>
+
         </header>
     )
 }

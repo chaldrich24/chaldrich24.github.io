@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #9EBC9F;
+  --primary-color: #4C4C47;
   --secondar-color: #C3B299;
   --tertiary-color: #247BA0;
   --dark-color: #230903;
@@ -23,39 +23,69 @@ code {
 h1 {
   font-family: 'Play', sans-serif;
   text-align: center;
-  margin-top: 0;
+  margin: 0;
   font-size: 50px;
+  flex-basis: 25%;
 }
+
 
 header {
   background-color: var(--primary-color);
-  color: var(--dark-color);
-  padding: 40px 0;
+  color: var(--light-color);
+  padding: 40px 40px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav {
-  margin: 0 auto;
-  width: 80%;
+  flex-basis: 50%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 li {
   list-style: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 50px;
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .about {
-  margin: 100px auto;
+  margin: 150px auto 300px auto;;
   width: 50%;
 }
 
 .about p {
   line-height: 1.5;
+}
+
+.about h2 {
+  font-size: 45px;
+}
+
+.fa_custom {
+  color: 
+  #0099CC
+}
+
+.navActive {
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--secondar-color);
 }
 
