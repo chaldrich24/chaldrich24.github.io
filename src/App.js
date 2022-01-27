@@ -27,7 +27,7 @@ function App() {
     }
   ]
 
-  const [currentSection, setCurrentSection] = useState(sections[0]);
+  const [currentSection, setCurrentSection] = useState(sections[1]);
 
   return (
     <div className="main">
