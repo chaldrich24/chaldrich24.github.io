@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            You've reached the bottom of the page
+            Chad Aldrich - Created 2022
         </footer>
     )
 }
