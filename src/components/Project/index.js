@@ -7,15 +7,16 @@ function Project({project}) {
 
     return (
         <div className="small-projects">
-            <a className="project" href={link} target='_blank'>
+            <a className="project" href={link} target='_blank' rel="noreferrer">
                 <img
                     src={require(`../../images/${image}`)}
                     key='lane'
                     className="img-small"
+                    alt='project site'
                 />
                 <h3>{name}</h3>
             </a>
-            <a href={github} target='_blank' className="github">GitHub</a>
+            <a href={github} target='_blank' className="github" rel="noreferrer">GitHub</a>
         </div>
     )
 }
