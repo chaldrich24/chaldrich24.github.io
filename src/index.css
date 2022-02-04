@@ -115,17 +115,21 @@ footer {
   width: 80%;
 }
 
+.project h3 {
+  font-style: italic;
+}
+
 .small-projects {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 700px;
+  width: 49%;
   justify-content: space-between;
   margin-bottom: 50px;
 }
 
 .project {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 0 0 10px 0;

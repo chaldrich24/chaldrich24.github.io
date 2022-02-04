@@ -4,6 +4,12 @@ import Project from '../Project';
 function Portfolio() {
     const projects = [
         {
+            name: 'nfteez.',
+            github: 'https://github.com/chaldrich24/nfteez',
+            link: 'https://radiant-springs-59444.herokuapp.com/',
+            image: 'nfteez.png'
+        },
+        {
             name: 'Contactless Menu',
             github: 'https://github.com/lrivales/contactless-menu',
             link: 'https://polar-earth-23819.herokuapp.com/',
@@ -32,12 +38,6 @@ function Portfolio() {
             github: 'https://github.com/chaldrich24/note-taker',
             link: 'https://protected-castle-28894.herokuapp.com/',
             image: 'note-taker.png'
-        },
-        {
-            name: 'Charity Search',
-            github: 'https://github.com/chaldrich24/charity-search',
-            link: 'https://chaldrich24.github.io/charity-search/',
-            image: 'charity-project.png'
         }
     ]
 
