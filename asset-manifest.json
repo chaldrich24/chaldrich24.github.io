@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba8b5443.css",
-    "main.js": "/portfolio/static/js/main.a94e7035.js",
+    "main.css": "/portfolio/static/css/main.acf366df.css",
+    "main.js": "/portfolio/static/js/main.42f1351d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/charity-project.png": "/portfolio/static/media/charity-project.f86eb85db81dfba43952.png",
+    "static/media/nfteez.png": "/portfolio/static/media/nfteez.07bcce69f475c735679e.png",
+    "static/media/site-screenshot.png": "/portfolio/static/media/site-screenshot.c20bac7d6b4cd31cf6f6.png",
     "static/media/budget-tracker.png": "/portfolio/static/media/budget-tracker.dbcb3f01d5675a543600.png",
     "static/media/note-taker.png": "/portfolio/static/media/note-taker.c14082e1523f77caae06.png",
     "static/media/resume.png": "/portfolio/static/media/resume.6e4898badabd1981aa01.png",
@@ -11,12 +13,12 @@
     "static/media/blog-site.png": "/portfolio/static/media/blog-site.b26d096303ecef744e97.png",
     "static/media/ChadAldrich_Resume.docx": "/portfolio/static/media/ChadAldrich_Resume.cef938ecef2221e30ca4.docx",
     "index.html": "/portfolio/index.html",
-    "main.ba8b5443.css.map": "/portfolio/static/css/main.ba8b5443.css.map",
-    "main.a94e7035.js.map": "/portfolio/static/js/main.a94e7035.js.map",
+    "main.acf366df.css.map": "/portfolio/static/css/main.acf366df.css.map",
+    "main.42f1351d.js.map": "/portfolio/static/js/main.42f1351d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba8b5443.css",
-    "static/js/main.a94e7035.js"
+    "static/css/main.acf366df.css",
+    "static/js/main.42f1351d.js"
   ]
 }
