@@ -14,7 +14,7 @@ function Nav(props) {
                         </li>
                     ))}
                     <li>
-                        <a href='https://www.linkedin.com/in/chad-aldrich/'>
+                        <a href='https://www.linkedin.com/in/chad-aldrich/' target='_blank'>
                             <i className="fa fa-linkedin fa-2x fa_custom" ></i>
                         </a>
                     </li>

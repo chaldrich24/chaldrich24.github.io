@@ -4,8 +4,8 @@ function Resume() {
     return (
         <div className="resume">
             <h2>Resume</h2>
-            <img alt='resume' src={require('../../images/resume.png')} />
-            <a href={require('../../docs/ChadAldrich_Resume.docx')} download>Download Resume</a>
+            <embed type="application/pdf" src={require('../../docs/resume.pdf')} width='850' height='950'></embed>
+            <a href={require('../../docs/resume.pdf')} download>Download Resume</a>
         </div>
     )
 }

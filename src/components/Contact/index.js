@@ -1,10 +1,13 @@
-import React, {useState} from "react";
-import {validateEmail} from '../../utils/helpers';
+import React, { useState } from "react";
+import { validateEmail } from '../../utils/helpers';
+import kwesforms from "kwesforms";
+
 
 function Contact() {
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+    const [formState, setFormState] = useState({ Name: '', Email: '', Message: '' });
     const { name, email, message } = formState;
 
+    const url = window.location.href;
     const [errorMessage, setErrorMessage] = useState('');
 
     function handleChange(e) {
@@ -33,12 +36,14 @@ function Contact() {
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        kwesforms.init();
+        // window.location.reload();
     }
 
     return (
         <section className="contact">
             <h2>Contact me</h2>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" className='kwes-form' action="https://kwesforms.com/api/foreign/forms/SVLUnKYagNAL4H88Y4rX" onSubmit={handleSubmit}>
                 <div className="form-el">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="Name" defaultValue={name} onBlur={handleChange} />
@@ -51,14 +56,19 @@ function Contact() {
                     <label htmlFor="message">Message:</label>
                     <textarea name="Message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
-                {errorMessage && (
+                <button type="submit">Submit</button>
+                {/* {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
-                )}
-                <button type="submit">Submit</button>
+                )} */}
+                <div>
+                    {errorMessage ? <p className="error-text">{errorMessage}</p> : <p className="hidden-error">Contact</p>}
+                </div>
             </form>
         </section>
+
+
     )
 }
 
