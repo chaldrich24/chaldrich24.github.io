@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.332473d3.css",
-    "main.js": "/portfolio/static/js/main.1baf5fa9.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/charity-project.png": "/portfolio/static/media/charity-project.f86eb85db81dfba43952.png",
-    "static/media/nfteez.png": "/portfolio/static/media/nfteez.07bcce69f475c735679e.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.25141d8896f7eeffd583.pdf",
-    "static/media/site-screenshot.png": "/portfolio/static/media/site-screenshot.c20bac7d6b4cd31cf6f6.png",
-    "static/media/budget-tracker.png": "/portfolio/static/media/budget-tracker.dbcb3f01d5675a543600.png",
-    "static/media/note-taker.png": "/portfolio/static/media/note-taker.c14082e1523f77caae06.png",
-    "static/media/resume.png": "/portfolio/static/media/resume.6e4898badabd1981aa01.png",
-    "static/media/menu.png": "/portfolio/static/media/menu.4dd3843aef202ba2a7e0.png",
-    "static/media/blog-site.png": "/portfolio/static/media/blog-site.b26d096303ecef744e97.png",
-    "index.html": "/portfolio/index.html",
-    "main.332473d3.css.map": "/portfolio/static/css/main.332473d3.css.map",
-    "main.1baf5fa9.js.map": "/portfolio/static/js/main.1baf5fa9.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.332473d3.css",
+    "main.js": "/static/js/main.776889ef.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/charity-project.png": "/static/media/charity-project.f86eb85db81dfba43952.png",
+    "static/media/nfteez.png": "/static/media/nfteez.07bcce69f475c735679e.png",
+    "static/media/resume.pdf": "/static/media/resume.bdf792e311e3cbb8b5fd.pdf",
+    "static/media/site-screenshot.png": "/static/media/site-screenshot.c20bac7d6b4cd31cf6f6.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.dbcb3f01d5675a543600.png",
+    "static/media/note-taker.png": "/static/media/note-taker.c14082e1523f77caae06.png",
+    "static/media/resume.png": "/static/media/resume.6e4898badabd1981aa01.png",
+    "static/media/menu.png": "/static/media/menu.4dd3843aef202ba2a7e0.png",
+    "static/media/blog-site.png": "/static/media/blog-site.b26d096303ecef744e97.png",
+    "index.html": "/index.html",
+    "main.332473d3.css.map": "/static/css/main.332473d3.css.map",
+    "main.776889ef.js.map": "/static/js/main.776889ef.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.332473d3.css",
-    "static/js/main.1baf5fa9.js"
+    "static/js/main.776889ef.js"
   ]
 }
