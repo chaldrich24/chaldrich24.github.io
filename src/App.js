@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className="main">
-      <main>
+      <main className='main-container'>
         <Nav currentSection={currentSection} setCurrentSection={setCurrentSection} sections={sections} />
         {currentSection.tag}
       </main>

@@ -1,6 +1,6 @@
 :root {
   --primary-color: #4C4C47;
-  --secondar-color: #C3B299;
+  --secondary-color: #C3B299;
   --tertiary-color: #247BA0;
   --dark-color: #230903;
   --light-color: #FFFCFF;
@@ -70,9 +70,17 @@ footer {
   justify-content: space-between;
 }
 
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .about {
-  margin: 150px auto 200px auto;;
-  width: 50%;
+  margin: 150px 250px 225px 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about p {
@@ -83,6 +91,20 @@ footer {
   font-size: 45px;
 }
 
+.about-image {
+  width: 450px;
+  border: 3px solid var(--dark-color);
+  border-radius: 2%;
+}
+
+.about-image-container {
+  flex: 1;
+}
+
+.about-info-container {
+  flex: 2;
+}
+
 .fa_custom {
   color: 
   #0099CC
@@ -90,7 +112,7 @@ footer {
 
 .navActive {
   padding-bottom: 2px;
-  border-bottom: 1px solid var(--secondar-color);
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .projects {
@@ -151,7 +173,7 @@ footer {
   position: absolute;
   bottom: 0;
   border-left-style: none;
-  background-color: var(--secondar-color);
+  background-color: var(--secondary-color);
   width: 100%;
   padding: 10px;
   border-top-style: none;
@@ -171,8 +193,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 160px;
-  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-top: 90px;
 }
 
 .contact h2 {
@@ -194,10 +216,7 @@ footer {
 
 .form-el textarea, .form-el input {
   flex-basis: 50%;
-
 }
-
-
 
 .message {
   align-items: flex-start;
@@ -249,9 +268,13 @@ footer {
 
 #contact-form button {
   margin-top: 15px;
-  background-color: var(--secondar-color);
+  background-color: var(--secondary-color);
   border: 2px solid var(--dark-color);
   padding: 3px 10px;
+}
+
+#contact-form button:hover {
+  background-color: #e2cba9;
 }
 
 

@@ -35,7 +35,7 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+        console.log(e);
         kwesforms.init();
         // window.location.reload();
     }
@@ -57,18 +57,11 @@ function Contact() {
                     <textarea name="Message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 <button type="submit">Submit</button>
-                {/* {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )} */}
                 <div>
                     {errorMessage ? <p className="error-text">{errorMessage}</p> : <p className="hidden-error">Contact</p>}
                 </div>
             </form>
         </section>
-
-
     )
 }
 
