@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.cac76fe1.css",
-    "main.js": "/static/js/main.2e7a99dc.js",
+    "main.js": "/static/js/main.b4ea3c4b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/myself.JPG": "/static/media/myself.287627397ba90644c082.JPG",
     "static/media/charity-project.png": "/static/media/charity-project.f86eb85db81dfba43952.png",
     "static/media/nfteez.png": "/static/media/nfteez.07bcce69f475c735679e.png",
-    "static/media/resume.pdf": "/static/media/resume.bdf792e311e3cbb8b5fd.pdf",
     "static/media/site-screenshot.png": "/static/media/site-screenshot.c20bac7d6b4cd31cf6f6.png",
     "static/media/budget-tracker.png": "/static/media/budget-tracker.dbcb3f01d5675a543600.png",
     "static/media/note-taker.png": "/static/media/note-taker.c14082e1523f77caae06.png",
     "static/media/resume.png": "/static/media/resume.6e4898badabd1981aa01.png",
     "static/media/menu.png": "/static/media/menu.4dd3843aef202ba2a7e0.png",
     "static/media/blog-site.png": "/static/media/blog-site.b26d096303ecef744e97.png",
+    "static/media/resume.pdf": "/static/media/resume.fadac2dfffe674d5bee1.pdf",
     "index.html": "/index.html",
     "main.cac76fe1.css.map": "/static/css/main.cac76fe1.css.map",
-    "main.2e7a99dc.js.map": "/static/js/main.2e7a99dc.js.map",
+    "main.b4ea3c4b.js.map": "/static/js/main.b4ea3c4b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cac76fe1.css",
-    "static/js/main.2e7a99dc.js"
+    "static/js/main.b4ea3c4b.js"
   ]
 }
