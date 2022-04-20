@@ -77,10 +77,11 @@ footer {
 }
 
 .about {
-  margin: 150px 250px 225px 250px;
+  margin: 150px auto 225px auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  width: 70%;
 }
 
 .about p {
@@ -99,10 +100,16 @@ footer {
 
 .about-image-container {
   flex: 1;
+  padding: 10px;
 }
 
 .about-info-container {
   flex: 2;
+  padding: 10px;
+}
+
+.about-info-container h2 {
+  margin: 0;
 }
 
 .fa_custom {

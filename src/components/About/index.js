@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about">
       <div className="about-image-container">
-          <img className="about-image" src={require('../../images/myself.JPG')} />
+        <img className="about-image" src={require("../../images/myself.JPG")} />
       </div>
       <div className="about-info-container">
         <h2>Full Stack Developer.</h2>
@@ -18,12 +18,8 @@ function About() {
           compounded by my previous educational and professional background,
           I’ll leverage myself into a new position working full stack
           development in the tech industry. As for who I am apart from my
-          professional goals, I love to read, either non-fiction or fiction, on
-          any subjects ranging from philosophy and history to novels on the
-          American West in the 19th century. I’m also an avid sports fan with a
-          preference for American football and baseball. Lastly, I consider
-          myself a creative person and love learning new things, with right now
-          my focus on piano playing and music production.
+          professional goals, I am an avid reader, musician and a passionate DC sports
+          fan, especially the Washington Nationals.
         </p>
       </div>
     </div>
